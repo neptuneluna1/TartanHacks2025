@@ -1,0 +1,139 @@
+:root{
+    --black: rgb(08, 07, 08);
+    --blue: rgb(55, 114, 255);
+    --darkBlue: rgb(55, 81, 255);
+    --red: rgb(223, 41, 53);
+    --yellow: rgb(253, 202, 64);
+    --white: rgb(230, 232, 230);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../static/Montserrat-Regular.ttf");
+}
+* {
+    color: var(--white);
+    font-family: 'Montserrat';
+    text-align: center;
+}
+/*top navi style:*/
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--blue);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+nav a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 20px 35px;
+    display: inline-block;
+}
+nav a:hover {
+    color: var(--yellow);
+}
+
+.pfp {
+    position: absolute;
+    background-color: var(--yellow);
+    width: 20%;
+    left: 50px;
+    top: 400px;
+    border-radius: 15px;
+}
+.name {
+    width: 40%;
+    height: 30%;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 15px;
+}
+#pics {
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 100px;
+    left: 50px;
+}
+
+
+.stats{
+    position: absolute;
+    background-color: var(--yellow);
+    width: 20%;
+    left: 400px;
+    top: 100px;
+    border-radius: 15px;
+}
+.stat1{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 15px;
+}
+.stats2{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.goal{
+    position: absolute;
+    background-color: var(--yellow);
+    width: 20%;
+    left: 750px;
+    top: 100px;
+    border-radius: 15px;
+}
+.goals1{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 25px;
+}
+.goals{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 15px;
+}
+.goals2{
+   color: var(--black);
+   font-weight: bold;
+   font-size: 15px;
+   text-decoration: none; 
+}
+.goals2:hover{
+    color: var(--blue);
+}
+
+.info{
+    position: absolute;
+    background-color: var(--yellow);
+    width: 20%;
+    left: 1100px;
+    top: 100px;
+    border-radius: 15px;
+}
+.info1{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 25px;
+}
+.infos{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*footer*/
+.pics {
+    position: fixed;
+    bottom: 0;  
+    left: 50%;  
+    transform: translateX(-50%); 
+    width: 100%;
+}
