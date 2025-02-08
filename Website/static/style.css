@@ -35,3 +35,22 @@ nav a {
 nav a:hover {
     color: var(--yellow);
 }
+/*main style:*/
+#intro {
+    text-align: center;
+    left: 50%;
+    position: absolute;
+    top: 20%;
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--black);
+    border: 3px solid green;
+}
+
+.pics {
+    position: fixed;
+    bottom: 0;  
+    left: 50%;  
+    transform: translateX(-50%); 
+    width: 100%;
+}
