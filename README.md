@@ -2,3 +2,4 @@
 TartanHacks2025 with The Matcha Team!!!
 
 run pip install openai !!!
+source .venv/bin/activate
