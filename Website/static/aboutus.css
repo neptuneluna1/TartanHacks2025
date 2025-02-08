@@ -53,4 +53,5 @@ nav a:hover {
     position: fixed;
     top: 100px;
     background-color: green;
+    width: 200px;
 }
