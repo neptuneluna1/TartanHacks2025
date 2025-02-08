@@ -7,10 +7,12 @@
 }
 @font-face {
     font-family: "Montserrat";
-    src: url("../static/Montserrat");
+    src: url("../static/Montserrat-Regular.ttf");
 }
 * {
     color: var(--white);
+    font-family: 'Montserrat';
+    text-align: center;
 }
 /*top navi style:*/
 header {
