@@ -1,7 +1,7 @@
-import retrieveWorkout from './mongo.js'
+//import retrieveWorkout from './mongo.js'
 
 //for workout:
-async function createWorkout() {
+function createWorkout() {
     let text1 = "400 free warm-up!! 4x100 free @90 seconds (focus on breathing technique)!! 4x50 free @60 seconds (build pace, focus on form)!! 3x75 free @90 seconds (1st length steady, 2nd length build, 3rd length sprint)!! 2x100 free with fins @90 seconds (help maintain speed)!! 4x25 free @30 seconds (sprint)!! 200 free warm-down";
     let lines = text1.split("!!");
     let amtTop = 300;
@@ -19,7 +19,7 @@ async function createWorkout() {
         element.style.textAlign = "center";
     });
 
-    const workout = await retrieveWorkout();
+    //const workout = await retrieveWorkout();
 }
 
 createWorkout();

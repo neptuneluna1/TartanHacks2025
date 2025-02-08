@@ -3,7 +3,7 @@
   "name": "tartanhacks2025",
   "version": "1.0.0",
   "description": "TartanHacks2025 with The Matcha Team!!!",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongodb": "^6.13.0"
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.0"
   }
 }

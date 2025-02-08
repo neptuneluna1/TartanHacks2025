@@ -17,4 +17,4 @@ async function retrieveWorkout() {
     }
 }
 
-export default retrieveWorkout();  
+export default retrieveWorkout();*/  

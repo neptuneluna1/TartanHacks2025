@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" defer href="../static/workouts.css">
-    <script type="module" defer src="../static/script.js"></script>
+    <script type="module" defer src="../static/workouts.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
 </head>
 <body>
+    <script>
+        fetch('http://localhost:3000/data')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('message').innerText = data.message;
+            })
+            .catch(err => console.error('Error:', err));
+    </script>
     <header>
         <nav>
             <a href="main.html">Home</a>
@@ -15,6 +23,7 @@
             <a href="profile.html">Profile</a>
             <a href="aboutus.html">About Us</a>
             <a href="signup.html">Sign Up</a>
+            <a href="signin.html">Sign In</a>
         </nav>
     </header>
     <div class="main">
