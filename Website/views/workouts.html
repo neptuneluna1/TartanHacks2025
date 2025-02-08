@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" defer href="../static/style.css">
+    <link rel="stylesheet" defer href="../static/workouts.css">
     <script type="module" defer src="../static/script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +18,19 @@
         </nav>
     </header>
     <div class="main">
-        <p id="intro">Create your own personalized swim workouts with our website:</p>
-        <a href="signup.html">
-            <button id="signup">Sign Up</button>
-        </a>
-        <p id="exampleIntro">Scroll to see an example workout:</p>
-        <div id="workout"></div>
+       <p id="workout">Your Workout!</p>
+       <label for="time">How much time do you have today?</label>
+       <select name="time" id="time">
+        <option value="15">15 min</option>
+        <option value="30">30 min</option>
+        <option value="45">45 min</option>
+        <option value="1">1 hour</option>
+        <option value="1.1">1 hour 15 min</option>
+        <option value="1.2">1 hour 30 min</option>
+        <option value="1.3">1 hour 45 min</option>
+        <option value="2">2 hours</option>
+       </select>
+       <button id="generate">Generate Workout!</button>
     </div>
     <footer>
         <nav>
