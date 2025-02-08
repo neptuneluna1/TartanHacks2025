@@ -82,8 +82,22 @@ nav a:hover {
     font-size: 20px;
     font-weight: bold;
 }
+.sun {
+    position:fixed;
+    top: 80px;
+    right: 20px;
+    width: 17%;
+    height: 32%;
+}
 
 /*footer*/
+.life {
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 30%;
+    height: 70%;
+}
 .pics {
     position: fixed;
     bottom: 0;  
