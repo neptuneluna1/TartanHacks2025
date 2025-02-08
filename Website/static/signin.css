@@ -68,10 +68,6 @@ form {
     width: 100%;
 }
 
-#sun {
-    position: float;
-    top: 0;  
-    right: 0;  
-    transform: translateX(-50%); 
-    width: 50%;
+#output {
+    color: red;
 }
