@@ -1,0 +1,37 @@
+:root{
+    --black: rgb(08, 07, 08);
+    --blue: rgb(55, 114, 255);
+    --red: rgb(223, 41, 53);
+    --yellow: rgb(253, 202, 64);
+    --white: rgb(230, 232, 230);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../static/Montserrat");
+}
+* {
+    color: var(--white);
+}
+/*top navi style:*/
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--blue);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+nav a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 20px 35px;
+    display: inline-block;
+}
+nav a:hover {
+    color: var(--yellow);
+}
