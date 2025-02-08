@@ -5,7 +5,8 @@
     <script type="module" defer src="../static/signup.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Sign Up</title>
+
 </head>
 <body>
 
@@ -20,20 +21,22 @@
     </header>
 
     <article>
-        <form id="name">
-            <label for="userInput">Sign up</label>
+        <form id="form" onsubmit="event.preventDefault(); collectInput();">
+            <label for="userInput" id="label">Sign up</label>
             <br><br>
             <input type="text" id="userInput" name="userInput" placeholder="Username">
-            <br><br>
+            <br>
             <input type="text" id="userInput" name="userInput" placeholder="Email">
-            <br><br>
+            <br>
             <input type="text" id="userInput" name="userInput" placeholder="Password">
-            <br><br>
+            <br>
             <input type="text" id="userInput" name="userInput" placeholder="Confirm password">
             <br><br>
             <button type="submit">Submit</button>
         </form>
     </article>
+
+    <p id="output"></p>
 
     <footer>
         <nav>

@@ -5,12 +5,19 @@
     --yellow: rgb(253, 202, 64);
     --white: rgb(230, 232, 230);
 }
+
 @font-face {
     font-family: "Montserrat";
     src: url("../static/Montserrat");
 }
+
 * {
-    color: var(--white);
+    color: var(--black);
+}
+
+#label {
+    color: white;
+    font-size: 28px;
 }
 
 header {
@@ -25,32 +32,22 @@ header {
     font-size: 20px;
     font-weight: bold;
     font-family: "Montserrat";
+    padding: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: var(--white);
     padding: 20px 35px;
-    display: inline-block;
 }
 
 nav a:hover {
     color: var(--yellow);
 }
 
-#name{
+#form {
     text-align: center;
     color: white;
-    font: Tahoma;
-}
-
-article{
-    background-color: var(--yellow);
-    padding: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 12%;
-    margin-bottom: 10%;
 }
 
 .pics {
@@ -59,4 +56,18 @@ article{
     left: 50%;  
     transform: translateX(-50%); 
     width: 100%;
+}
+
+article {
+    background-color: var(--yellow);
+    font-size: 25px;
+    padding: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+#output {
+    color: pink;
 }
