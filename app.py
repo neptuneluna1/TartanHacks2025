@@ -15,8 +15,8 @@ user = mongo.db.users.find_one({'username': 'ArchZak'})
 level = user.get('level')
 goal = user.get('goal')
 end_date = user.get('end_date_of_goal')
-workout_length = user.get('temp').get('workout_length')
-en = user.get('temp').get('workout_today')
+workout_length = user.get('workout_length')
+en = user.get('workout_today')
 
 response = client.chat.completions.create(
     model="gpt-4o-mini",
