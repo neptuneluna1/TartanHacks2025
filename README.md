@@ -2,5 +2,9 @@
 TartanHacks2025 with The Matcha Team!!!
 
 run pip install openai !!!
-source .venv/bin/activate
 pip install python-dotenv
+pip install pymongo
+pip install --upgrade certifi
+
+
+source .venv/bin/activate

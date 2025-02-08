@@ -7,10 +7,11 @@
 }
 @font-face {
     font-family: "Montserrat";
-    src: url("../static/Montserrat");
+    src: url("../static/Montserrat-Regular.ttf");
 }
 * {
     color: var(--white);
+    font-family: 'Montserrat';
 }
 /*top navi style:*/
 header {
@@ -37,16 +38,49 @@ nav a:hover {
 }
 /*main style:*/
 #intro {
-    text-align: center;
-    left: 50%;
-    position: absolute;
-    top: 20%;
-    font-weight: bold;
-    font-size: 30px;
     color: var(--black);
-    border: 3px solid green;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 28px;
+    font-weight: bold;
 }
 
+#signup {
+    color: var(--black);
+    position: fixed;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--blue);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+#signup:hover {
+    background-color: var(--yellow);
+}
+
+#exampleIntro {
+    color: var(--black);
+    position: fixed;
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 28px;
+    font-weight: bold;
+}
+#workout {
+    position: fixed;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-30%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*footer*/
 .pics {
     position: fixed;
     bottom: 0;  
